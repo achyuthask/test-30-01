@@ -1,0 +1,17 @@
+//enter prime nuber between 1 to n ,take input from user
+
+
+
+var a = prompt("Enter number: ");
+
+for(var i=2; i<=a ;i++){
+      var  Prime = true ;
+      for(var j=2; j<i; j++){
+          if(i%j == 0 && i !== j){
+              Prime = false;
+            }
+        }
+        if(Prime === true){
+            console.log(i);
+        }
+  } 
