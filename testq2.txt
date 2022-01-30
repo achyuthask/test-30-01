@@ -1,0 +1,5 @@
+<html>
+  <body>
+    <script src="testq2.js"></script>
+  </body>
+</html>
